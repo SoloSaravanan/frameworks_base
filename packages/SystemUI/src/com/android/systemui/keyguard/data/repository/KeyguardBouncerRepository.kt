@@ -152,7 +152,7 @@ constructor(
 
     /** Sets up logs for state flows. */
     private fun setUpLogging() {
-        if (!Build.IS_DEBUGGABLE) {
+        if (!Build.IS_ENG) {
             return
         }
 
